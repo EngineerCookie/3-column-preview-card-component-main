@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 15px;
+/*Variables*/
+    /*Main Colors*/
+    --color-main-orange: hsl(31, 77%, 52%);
+    --color-main-cyan: hsl(184, 100%, 22%);
+    --color-main-cyanDark: hsl(179, 100%, 13%);
+    /*Aux Colors*/
+    --color-aux-white: hsla(0, 0%, 100%, 0.75); /*Paragraphs*/
+    --color-aux-grayLight: hsl(0, 0%, 95%);/*(background, headings, buttons)*/
+    /*Decoration*/
+    --font-main-tittle: font-family: 'Big Shoulders Display', cursive;
+    --font-main-p: font-family: 'Lexend Deca', sans-serif;
+    --font-size-tittle: 1.8rem;
+    --font-size-p: 1rem;
+}
+
+
+/*Utility Classes START*/
