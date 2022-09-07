@@ -85,8 +85,7 @@ body {
 .category {
     flex: 1 1 33%;
     height: clamp(440px, 70vh, 500px);
-    min-width: 250px; /*PLACEHOLDER*/
-    /* max-height: 500px; */
+    min-width: 250px;
     padding: 3rem;
 }
 
@@ -143,12 +142,6 @@ body {
     .suv {
         border-radius: 0 0 0 0;
     }
-    /* .attribution {
-        position: absolute;
-        top: 0%;
-        left: 50%;
-        translate: -50% 30%;
-    } */
     .attribution > a::after {
         content: '\a';
         white-space: pre;
