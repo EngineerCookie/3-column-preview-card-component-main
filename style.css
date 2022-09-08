@@ -52,11 +52,21 @@ body {
     background-color: var(--color-aux-grayLight);
 }
 
-.canvas {
+/* .canvas {
     width: clamp(300px, 90%, 920px);
     height: max-content;
     margin: auto;
     padding-top: clamp(50px, 15%, 200px)
+} */
+
+.canvas {
+    width: clamp(300px, 90%, 920px);
+    min-height: 100vh;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
 }
 
 .tittle {
